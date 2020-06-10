@@ -10,7 +10,7 @@ def load_image_folder(filepath, limit=None):
     print('Num pics in folder: {}'.format(len(onlyfiles)))
     if limit != None:
         num_files = limit
-        print('Only {} images being used'.format(num_files))
+        #print('Only {} images being used'.format(num_files))
     else:
         num_files = len(onlyfiles)
         print('All images being used')
